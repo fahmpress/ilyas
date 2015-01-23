@@ -43,17 +43,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Admin Panel</a>
+                <a class="navbar-brand" href="index.html">Admin</a>
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul id="active" class="nav navbar-nav side-nav">
-                    <li class="selected"><a href="index.html"><i class="fa fa-bullseye"></i> HOME</a></li>
-                    <li><a href="portfolio.html"><i class="fa fa-tasks"></i> Portfolio</a></li>
-                    <li><a href="blog.html"><i class="fa fa-globe"></i> Blog</a></li>
-                    <li><a href="signup.html"><i class="fa fa-list-ol"></i> SignUp</a></li>
-                    <li><a href="register.html"><i class="fa fa-font"></i> Register</a></li>
-                    <li><a href="timeline.html"><i class="fa fa-font"></i> Timeline</a></li>
+                    <li class="selected"><a href="index-admin.jsp?link=home"><i class="fa fa-home fa-2x"></i> HOME </a></li>
+                    <li><a href="index-admin.jsp?link=member"><i class="fa fa-user fa-2x"></i>  Member </a></li>
+                    <li><a href="index-admin.jsp?link=toko"><i class="fa fa-globe"></i> Toko</a></li>
+                    <li><a href="index-admin.jsp?link=barang"><i class="fa fa-list-ol"></i> Barang</a></li>
+                    <li><a href="index-admin.jsp?link=pengiriman"><i class="fa fa-font"></i> Pengiriman</a></li>
+                    <li><a href="index-admin.jsp?link=kurir"><i class="fa fa-font"></i> kurir</a></li>
+                    <li><a href="index-admin.jsp?link=lokasi"><i class="fa fa-font"></i> lokasi</a></li>
+                    <li><a href="index-admin.jsp?link=transaksi"><i class="fa fa-font"></i> transaksi</a></li>
                     <li><a href="forms.html"><i class="fa fa-list-ol"></i> Forms</a></li>
                     <li><a href="typography.html"><i class="fa fa-font"></i> Typography</a></li>
                     <li><a href="bootstrap-elements.html"><i class="fa fa-list-ul"></i> Bootstrap Elements</a></li>
@@ -83,12 +85,12 @@
                         </ul>
                     </li>
                     <li class="dropdown user-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Steve Miller<b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> yas muhamad<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
                             <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
                             <li class="divider"></li>
-                            <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+                            <li><a href="logout-admin.jsp"><i class="fa fa-power-off"></i> Log Out</a></li>
 
                         </ul>
                     </li>
@@ -102,8 +104,16 @@
             </div>
         </nav>
 
- TAH IYEU             
-
+        <div id="page-wrapper" >
+             <div id="page-inner" >
+                
+                 <div class="row" >
+                     <div class="col-lg-12" >
+                         <%@include file="menu-admin.jsp" %>
+                     </div>
+                 </div>
+             </div>
+        </div>
     </div>
     <!-- /#wrapper -->
     <script type="text/javascript">
@@ -180,4 +190,5 @@
         });        
     </script>
 </body>
+
 </html>

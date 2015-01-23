@@ -46,5 +46,8 @@
                     </div>                        
                         </div>
     </div>
-    
-    
+    <script>
+    $("#commentForm").validate();
+    </script>
+</body>
+</html>

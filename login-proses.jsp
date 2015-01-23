@@ -15,7 +15,7 @@ if (rs.next ())
 session.setAttribute("sessionusername",rs.getString("username"));
 session.setAttribute("sessionpassword",rs.getString("password"));
 session.setAttribute("sessionnama",rs.getString("nama"));
-response.sendRedirect("index-admin.jsp");
+response.sendRedirect("index-admin.jsp?link=home");
 }else{
 %>
 <jsp:forward page="login-salah.jsp"/>

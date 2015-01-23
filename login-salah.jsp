@@ -9,9 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>goblog siah.. eweh kabisa ning</title>
+        <title>goblog siah !!!</title>
     </head>
     <body>
-        <h1>salah asup bos!!!</h1>
+        <h1>salah goblooogg!!!</h1>
     </body>
 </html>
