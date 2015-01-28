@@ -10,10 +10,10 @@
         {
         session.setAttribute("sessionusername",rs.getString("username"));
         session.setAttribute("sessionpassword",rs.getString("password"));
-        session.setAttribute("sessionakses",rs.getString("akses"));
-        response.sendRedirect("index-admin.jsp");
+        session.setAttribute("sessionlevel",rs.getString("level"));
+        response.sendRedirect("login-verifikasi.jsp");
         }else{
-        response.sendRedirect("login-salah.jsp");
+        response.sendRedirect("index.jsp?login=gagal");
         }
     }
 %>

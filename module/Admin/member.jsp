@@ -26,7 +26,7 @@ Statement st = con.createStatement();
                                         </tr>
                                         <tr>
                                         <%
-                                        ResultSet rs = st.executeQuery("SELECT * from tbuser");
+                                        ResultSet rs = st.executeQuery("SELECT * from tbuser where level='user'");
                                         while (rs.next()) {
                                         out.println("<tr>");
                                         out.println("<td><center>" + rs.getString ("kodeuser") + "</center></td>");

@@ -43,13 +43,13 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
-							<a href="#login" data-toggle="modal">Login</a>
+							<a href="logout.jsp" >Log out</a>
 						</li>
 						<li>
 							<a href="#">Feature</a>
 						</li>
                                                 <li>
-							<a href="#registrasi" data-toggle="modal">Registrasi</a>
+							<a href="#registrasi" >Get Premium</a>
 						</li>
 					</ul>
 					
@@ -117,78 +117,6 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="modal fade" id="login" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-							<h4 class="modal-title" id="myModalLabel">
-								Login User
-							</h4>
-						</div>
-						<div class="modal-body">
-							<form role="form" method="post" action="login-proses.jsp?act=login">
-								<div class="form-group">
-                                                                    <label for="exampleInputEmail1">User Name</label><input class="form-control" id="exampleInputEmail1" type="text" name="username" />
-								</div>
-								<div class="form-group">
-                                                                    <label for="exampleInputPassword1">Password</label><input class="form-control" id="exampleInputPassword1" type="password" name="password" />
-								</div>
-								<button type="submit" class="btn btn-primary">Login</button>
-							</form>
-						</div>
-					</div>
-					
-				</div>
-				
-			</div>
-    
-    
-    <div class="modal fade" id="registrasi" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-							<h4 class="modal-title" id="myModalLabel">
-								Form Registrasi
-							</h4>
-						</div>
-						<div class="modal-body">
-							<form role="form" method="post" action="proses-daftar.jsp?act=daftar">
-				<div class="form-group">
-                                    <label for="exampleInputEmail1"> User Name </label><input class="form-control" id="exampleInputEmail1" type="text" name="username" required/>
-				</div>
-				<div class="form-group">
-					 <label for="exampleInputEmail1"> Nama </label><input class="form-control" id="exampleInputEmail1" type="text" name="nama" required/>
-				</div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1"> Alamat </label><input class="form-control" id="exampleInputEmail1" type="text" name="alamat" required/>
-				</div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1"> Email </label><input class="form-control" id="exampleInputEmail1" type="text" name="email" required/>
-				</div>
-                                <div class="form-group">
-					 <label for="exampleInputPassword1"> Password </label><input class="form-control" id="exampleInputPassword1" type="password" name="password" required/>
-				</div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1"> Tanggal Lahir </label><input class="form-control" id="exampleInputEmail1" type="date" name="tgllahir" nrequired/>
-				</div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1"> Jenis Kelamin </label><input class="form-control" id="exampleInputEmail1" type="text" name="jeniskelamin" required/>
-				</div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1"> Lokasi </label><input class="form-control" id="exampleInputEmail1" type="text" name="lokasi" required/>
-				</div>
-                                
-				<button type="submit" class="btn btn-success ">Daftar</button>
-			</form>
-						</div>
-					</div>
-					
-				</div>
-				
-			</div>
 </div>
 </body>
 </html>
