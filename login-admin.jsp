@@ -32,7 +32,7 @@
                         </div>
                         <div class="panel-body">
                         <div class="col-md-10 col-md-offset-1">
-                            <form class="cmxform" method="post" role="form" action="login-proses.jsp" id="commentForm">
+                            <form class="cmxform" method="post" role="form" action="login-verifikasi.jsp" id="commentForm">
                                 <div class="form-group">
                                     <input class="form-control" name="user" minlength="4" type="text" placeholder="Username" required>
                                 </div>

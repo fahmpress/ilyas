@@ -50,11 +50,11 @@
                 <ul id="active" class="nav navbar-nav side-nav">
                     <li class="selected"><a href="index-admin.jsp?link=home"><i class="fa fa-home fa-2x"></i> HOME </a></li>
                     <li><a href="index-admin.jsp?link=member"><i class="fa fa-user fa-2x"></i>  Member </a></li>
-                    <li><a href="index-admin.jsp?link=toko"><i class="fa fa-globe"></i> Toko</a></li>
-                    <li><a href="index-admin.jsp?link=barang"><i class="fa fa-list-ol"></i> Barang</a></li>
-                    <li><a href="index-admin.jsp?link=pengiriman"><i class="fa fa-font"></i> Pengiriman</a></li>
-                    <li><a href="index-admin.jsp?link=kurir"><i class="fa fa-font"></i> kurir</a></li>
-                    <li><a href="index-admin.jsp?link=lokasi"><i class="fa fa-font"></i> lokasi</a></li>
+                    <li><a href="index-admin.jsp?link=toko"><i class="fa fa-bank fa-2x"></i>  Toko </a></li>
+                    <li><a href="index-admin.jsp?link=barang"><i class="fa fa-shopping-cart fa-2x"></i> Barang </a></li>
+                    <li><a href="index-admin.jsp?link=pengiriman"><i class="fa fa-plane fa-2x"></i> Pengiriman </a></li>
+                    <li><a href="index-admin.jsp?link=kurir"><i class="fa fa-male fa-2x"></i> kurir </a></li>
+                    <li><a href="index-admin.jsp?link=lokasi"><i class="fa fa-map-marker fa-2x"></i> lokasi </a></li>
                     <li><a href="index-admin.jsp?link=transaksi"><i class="fa fa-font"></i> transaksi</a></li>
                     <li><a href="forms.html"><i class="fa fa-list-ol"></i> Forms</a></li>
                     <li><a href="typography.html"><i class="fa fa-font"></i> Typography</a></li>
